@@ -1,0 +1,49 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-size: 15px;
+    font-weight: 600;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+body{
+    background-color: rgb(190, 182, 182);
+}
+
+.table__layout{
+    width: 90%;
+    background-color: #fff;
+    margin: 20px auto;
+    padding: 10px 0;
+}
+
+.table{
+    outline: 2px solid #000;
+    margin: auto;
+    border-collapse: collapse;
+    width: 1000px;
+    border: none;
+}
+
+th{
+    padding: 5px 0;
+}
+
+td{
+    padding: 0 5px;
+    display: inline-flexbox;
+}
+
+td:nth-child(1), td:nth-child(2), td:nth-child(3), td:nth-child(4), td:nth-child(5){
+    text-align: center;
+    width: 120px;
+}
+
+td, th{
+    outline: 1px solid #000;
+}
+
+tr:last-child > th{
+    background-color: rgb(196, 212, 224);
+}
